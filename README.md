@@ -67,7 +67,7 @@ Long list of additional checks/validators available [here](https://github.com/ph
     ```
     For multisite run the following command
    ```bash
-    cp vendor/innoraft/drupal-quality-checker/eslintrc.json.dist docroot/sites/<sitename>/themes/custom/<themename>/.stylelintrc.json
+    cp vendor/innoraft/drupal-quality-checker/stylelintrc.json.dist docroot/sites/<sitename>/themes/custom/<themename>/.stylelintrc.json
     ```
 3. For multisite run the following command
     ```bash
