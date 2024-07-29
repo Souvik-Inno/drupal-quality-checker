@@ -110,6 +110,5 @@ Long list of additional checks/validators available [here](https://github.com/ph
 ## Multisite Setup
 To set up for a multisite, follow these steps:
 
-1. Use this [bash script](https://gist.github.com/sandipta18/d331643af7fa6b59c3ec8e0664e2844b).
-2. Place the script outside the docroot.
-3. To run the script, use `./multisite-setup.sh`.
+1. Run this command from outside the docroot to fetch the script: wget https://gist.github.com/sandipta18/d331643af7fa6b59c3ec8e0664e2844b/raw/multisite-setup.sh
+2. Run this command to execute the script: ./multisite-setup.sh
