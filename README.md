@@ -67,7 +67,7 @@ Long list of additional checks/validators available [here](https://github.com/ph
     ```
     For multisite run the following command
    ```bash
-    cp vendor/innoraft/drupal-quality-checker/eslintrc.json.dist docroot/sites/<sitename>/themes/custom/<themename>/.stylelintrc.json
+    cp vendor/innoraft/drupal-quality-checker/stylelintrc.json.dist docroot/sites/<sitename>/themes/custom/<themename>/.stylelintrc.json
     ```
 3. For multisite run the following command
     ```bash
@@ -106,3 +106,10 @@ Long list of additional checks/validators available [here](https://github.com/ph
 5. Please check and confirm if your `grumphp.yml` is updated with `vendor/innoraft/drupal-quality-checker/grumphp.yml.dist` ( Check and confirm if trufflehog tasks & service attribute is added in `grumphp.yml` file )
 
 6. `Trufflehog` is now ready to sniff your secrets `:)`
+
+## Multisite Setup
+To set up for a multisite, follow these steps:
+
+1. Use this [bash script](https://gist.github.com/sandipta18/d331643af7fa6b59c3ec8e0664e2844b).
+2. Place the script outside the docroot.
+3. To run the script, use `./multisite-setup.sh`.
