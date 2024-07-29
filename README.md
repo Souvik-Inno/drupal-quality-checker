@@ -34,6 +34,19 @@ That's it. Now, all tasks (listed below) run on every `git commit`.
 
 Long list of additional checks/validators available [here](https://github.com/phpro/grumphp/blob/master/doc/tasks.md#tasks-1).
 
+To set up ESLint, Stylelint, and Trufflehog automatically, run the following commands:
+1. ```bash
+   cp vendor/innoraft/drupal-quality-checker/setup.sh .
+   ```
+2. ```bash
+   chmod +x setup.sh
+   ```
+3. ```bash
+   ./setup.sh
+   ```
+
+To run them manually follow the steps mentioned here:
+
 ## ESLint task Setup
 
 1. Go to custom theme folder and add eslint package with npm
@@ -106,19 +119,3 @@ Long list of additional checks/validators available [here](https://github.com/ph
 5. Please check and confirm if your `grumphp.yml` is updated with `vendor/innoraft/drupal-quality-checker/grumphp.yml.dist` ( Check and confirm if trufflehog tasks & service attribute is added in `grumphp.yml` file )
 
 6. `Trufflehog` is now ready to sniff your secrets `:)`
-
-## Multisite Setup
-To set up for a multisite, follow these steps:
-
-1. Run this command from outside the docroot to fetch the script: 
-``` bash 
-wget https://gist.github.com/sandipta18/d331643af7fa6b59c3ec8e0664e2844b/raw/multisite-setup.sh
-```
-2. Run this command to give the file executable permissions:
-``` bash
-chmod +x multisite-setup.sh
-```
-3. Run this command to execute the script:
-``` bash 
-./multisite-setup.sh
-```
