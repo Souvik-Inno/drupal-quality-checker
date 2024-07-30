@@ -1,9 +1,6 @@
 #!/bin/bash
 
 
-lando start
-
-
 read -p "Enter the site name: " site_name
 read -p "Enter the theme name: " theme_name
 
