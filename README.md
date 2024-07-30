@@ -34,10 +34,8 @@ That's it. Now, all tasks (listed below) run on every `git commit`.
 
 Long list of additional checks/validators available [here](https://github.com/phpro/grumphp/blob/master/doc/tasks.md#tasks-1).
 
-To set up ESLint, Stylelint, and Trufflehog automatically, run the following commands:
-1. ```bash
-   cp vendor/innoraft/drupal-quality-checker/setup.sh .
-   ```
+To set up ESLint, Stylelint, and Trufflehog automatically, follow the steps below:
+1. Download the setup.sh file and place it outside the docroot.
 2. ```bash
    chmod +x setup.sh
    ```
