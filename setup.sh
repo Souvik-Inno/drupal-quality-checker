@@ -12,7 +12,6 @@ BASE_DIR="docroot/sites/$site_name/themes/custom/$theme_name"
 ORIGINAL_DIR=$(pwd)
 
 
-lando composer require --dev innoraft/drupal-quality-checker
 
 
 cd "$BASE_DIR" || { echo "Base directory not found"; exit 1; }
